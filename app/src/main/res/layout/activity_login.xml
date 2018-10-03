@@ -26,9 +26,13 @@
             android:maxLines="1"
             android:layout_height="35dp"
             android:paddingLeft="5dp"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/login_edittext_bac"/>
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:background="@drawable/login_edittext_bac"
+            android:maxLines="1"
+            android:inputType="textPassword"/>
     </LinearLayout>
 </LinearLayout>
